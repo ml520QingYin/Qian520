@@ -1,0 +1,82 @@
+/* 标题样式 */
+.title {
+  background-color: #FCEFFB;
+  padding: 10px;
+}
+
+/* 绿色字体 */
+.green-text {
+  color: green;
+}
+
+/* 菜单导航区域样式 */
+.menu {
+  background-color: green;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 导航栏区域样式 */
+.nav-section {
+  position: relative;
+  margin-right: 10px;
+}
+
+/* 导航栏标题样式 */
+.nav-title {
+  color: white;
+  background-color: #2CA8D1; /* 浅蓝色背景 */
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+/* 导航栏下拉菜单样式 */
+.nav-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #FCEFFB;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 10px;
+}
+
+/* 导航栏下拉菜单链接样式 */
+.nav-dropdown a {
+  color: black;
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  background-color: #E0F4FD; /* 浅蓝色背景 */
+}
+
+/* 导航栏下拉菜单链接悬停样式 */
+.nav-dropdown a:hover {
+  background-color: #C7E9FC; /* 鼠标悬停时的背景色 */
+}
+
+/* 搜索框样式 */
+.search-box {
+  display: flex;
+  align-items: center;
+}
+
+/* 搜索框输入样式 */
+.search-box input[type="text"] {
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+}
+
+/* 搜索按钮样式 */
+.search-button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  background-color: #E0F4FD; /* 浅蓝色背景 */
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
