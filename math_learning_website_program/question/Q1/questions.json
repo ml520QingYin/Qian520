@@ -1,0 +1,53 @@
+[
+  {
+    "question": "求函数 f(x) = 2x^3 - 5x^2 + 3x - 2 的导数。",
+    "options": [
+      {"value": "A", "label": "A. f'(x) = 6x^2 - 10x + 3"},
+      {"value": "B", "label": "B. f'(x) = 6x^2 - 10x - 3"},
+      {"value": "C", "label": "C. f'(x) = 6x^2 - 5x + 3"},
+      {"value": "D", "label": "D. f'(x) = 6x^2 - 5x - 3"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "已知函数 f(x) = x^3 + 2x^2 - x + 1 的定义域为 (-∞, ∞)，则该函数的值域为：",
+    "options": [
+      {"value": "A", "label": "A. (-∞, ∞)"},
+      {"value": "B", "label": "B. (-∞, 1)"},
+      {"value": "C", "label": "C. (-∞, 2]"},
+      {"value": "D", "label": "D. [1, ∞)"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "求函数 f(x) = e^x 的不定积分。",
+    "options": [
+      {"value": "A", "label": "A. ∫ f(x) dx = e^x"},
+      {"value": "B", "label": "B. ∫ f(x) dx = e^x + C"},
+      {"value": "C", "label": "C. ∫ f(x) dx = x^2 + C"},
+      {"value": "D", "label": "D. ∫ f(x) dx = ln(x) + C"}
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "question": "求方程 x^2 - 4x + 3 = 0 的根。",
+    "options": [
+      {"value": "A", "label": "A. x = 1, x = 3"},
+      {"value": "B", "label": "B. x = -1, x = -3"},
+      {"value": "C", "label": "C. x = 1, x = -3"},
+      {"value": "D", "label": "D. x = -1, x = 3"}
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "question": "求函数 f(x) = sin(x) 在区间 [0, π/2] 上的最大值。",
+    "options": [
+      {"value": "A", "label": "A. f(x) 的最大值为 1"},
+      {"value": "B", "label": "B. f(x) 的最大值为 0"},
+      {"value": "C", "label": "C. f(x) 的最大值为 π/2"},
+      {"value": "D", "label": "D. f(x) 的最大值不存在"}
+    ],
+    "correctAnswer": "A"
+  }
+]
+

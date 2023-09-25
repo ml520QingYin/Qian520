@@ -1,0 +1,52 @@
+[
+  {
+    "question": "求函数 f(x) = 3x^2 - 4x + 2 的导数。",
+    "options": [
+      {"value": "A", "label": "A. f'(x) = 6x - 4"},
+      {"value": "B", "label": "B. f'(x) = 6x - 4x"},
+      {"value": "C", "label": "C. f'(x) = 6x^2 - 4"},
+      {"value": "D", "label": "D. f'(x) = 3x^2 - 4x"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "已知函数 f(x) = 2x^3 - 3x^2 + 5x - 1 的二阶导数为 f''(x) = 12x - 6，求 f'(x)。",
+    "options": [
+      {"value": "A", "label": "A. f'(x) = 4x^3 - 6x^2 + 5x - 1"},
+      {"value": "B", "label": "B. f'(x) = 2x^3 - 3x^2 + 5x - 1"},
+      {"value": "C", "label": "C. f'(x) = 6x^2 - 6x + 5"},
+      {"value": "D", "label": "D. f'(x) = 12x - 6"}
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "question": "求函数 f(x) = sin(2x) 的导数。",
+    "options": [
+      {"value": "A", "label": "A. f'(x) = cos(2x)"},
+      {"value": "B", "label": "B. f'(x) = -sin(2x)"},
+      {"value": "C", "label": "C. f'(x) = 2cos(2x)"},
+      {"value": "D", "label": "D. f'(x) = 2sin(2x)"}
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "question": "求函数 f(x) = ln(x^2 + 1) 的导数。",
+    "options": [
+      {"value": "A", "label": "A. f'(x) = 2x / (x^2 + 1)"},
+      {"value": "B", "label": "B. f'(x) = (2x + 1) / (x^2 + 1)"},
+      {"value": "C", "label": "C. f'(x) = 1 / (x^2 + 1)"},
+      {"value": "D", "label": "D. f'(x) = 2x / (x^2 - 1)"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "求函数 f(x) = e^(2x - 1) 的微分。",
+    "options": [
+      {"value": "A", "label": "A. df(x) = 2e^(2x - 1) dx"},
+      {"value": "B", "label": "B. df(x) = e^(2x - 1) dx"},
+      {"value": "C", "label": "C. df(x) = e^(2x - 1) d(2x - 1)"},
+      {"value": "D", "label": "D. df(x) = 2e^(2x - 1) d(2x - 1)"}
+    ],
+    "correctAnswer": "D"
+  }
+]

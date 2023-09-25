@@ -1,0 +1,52 @@
+[
+  {
+    "question": "计算反常积分 ∫[1, +∞] (1/x^2) dx。",
+    "options": [
+      {"value": "A", "label": "1"},
+      {"value": "B", "label": "2"},
+      {"value": "C", "label": "∞"},
+      {"value": "D", "label": "不收敛"}
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "question": "计算反常积分 ∫[0, 1] (1/√x) dx。",
+    "options": [
+      {"value": "A", "label": "1"},
+      {"value": "B", "label": "2"},
+      {"value": "C", "label": "∞"},
+      {"value": "D", "label": "不收敛"}
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "question": "计算反常积分 ∫[0, +∞] (e^(-x)) dx。",
+    "options": [
+      {"value": "A", "label": "1"},
+      {"value": "B", "label": "2"},
+      {"value": "C", "label": "∞"},
+      {"value": "D", "label": "不收敛"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "计算反常积分 ∫[0, +∞] (1/x) dx。",
+    "options": [
+      {"value": "A", "label": "1"},
+      {"value": "B", "label": "2"},
+      {"value": "C", "label": "∞"},
+      {"value": "D", "label": "不收敛"}
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "question": "计算反常积分 ∫[-∞, ∞] (1/(1+x^2)) dx。",
+    "options": [
+      {"value": "A", "label": "π"},
+      {"value": "B", "label": "2π"},
+      {"value": "C", "label": "∞"},
+      {"value": "D", "label": "不收敛"}
+    ],
+    "correctAnswer": "A"
+  }
+]

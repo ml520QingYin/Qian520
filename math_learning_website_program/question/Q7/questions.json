@@ -1,0 +1,52 @@
+[
+  {
+    "question": "计算函数 f(x, y) = 3x^2 + 2xy + y^2 在点 (2, 1) 处的偏导数 ∂f/∂x。",
+    "options": [
+      {"value": "A", "label": "6"},
+      {"value": "B", "label": "8"},
+      {"value": "C", "label": "10"},
+      {"value": "D", "label": "12"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "计算函数 f(x, y) = x^3 + 3xy^2 在点 (1, -2) 处的偏导数 ∂f/∂y。",
+    "options": [
+      {"value": "A", "label": "8"},
+      {"value": "B", "label": "12"},
+      {"value": "C", "label": "-8"},
+      {"value": "D", "label": "-12"}
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "question": "计算函数 f(x, y) = e^x + ln(y) 在点 (0, 1) 处的梯度 ∇f。",
+    "options": [
+      {"value": "A", "label": "(1, 0)"},
+      {"value": "B", "label": "(e, 1)"},
+      {"value": "C", "label": "(1, 1)"},
+      {"value": "D", "label": "(e, ln(y))"}
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "question": "计算函数 f(x, y) = x^2 + 3xy^2 在点 (2, -1) 处的全微分 df。",
+    "options": [
+      {"value": "A", "label": "df = 2dx + 3y^2 dx + 6xy dy"},
+      {"value": "B", "label": "df = 2dx + 3x^2 dx + 6xy dy"},
+      {"value": "C", "label": "df = 4dx + 3y^2 dx + 6xy dy"},
+      {"value": "D", "label": "df = 4dx + 3x^2 dx + 6xy dy"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "计算函数 f(x, y) = sin(x) + cos(y) 在点 (π/2, π) 处的方向导数 D_u f，其中向量 u = (1, -1)。",
+    "options": [
+      {"value": "A", "label": "D_u f = -√2"},
+      {"value": "B", "label": "D_u f = √2"},
+      {"value": "C", "label": "D_u f = -1"},
+      {"value": "D", "label": "D_u f = 1"}
+    ],
+    "correctAnswer": "B"
+  }
+]

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>选择题网页</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>选择题</h1>
+    <div class="question">
+      <p id="question-text"></p >
+    </div>
+    <div class="options" id="options-container">
+      <!-- 选项将通过 JavaScript 动态生成 -->
+    </div>
+    <button onclick="checkAnswer()">提交答案</button>
+    <div class="result" id="result"></div>
+    <img src="images/cor.png" alt="回答正确" id="correct-image">
+    <img src="images/wro.png" alt="回答错误" id="incorrect-image">
+    <button id="next-button" onclick="nextQuestion()" style="display: none;">下一题</button>
+    <div class="scoreboard" id="scoreboard">
+      <h3>记分表</h3>
+      <p>得分: <span id="score">0</span></p >
+      <p>总题目数: <span id="total-questions">0</span></p >
+      <p>已答题目数: <span id="answered-questions">0</span></p >
+    </div>
+  </div>
+
+  <script id="script-loader" src="script.js"></script>
+</body>
+</html>

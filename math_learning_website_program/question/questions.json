@@ -1,0 +1,188 @@
+[
+  {
+    "question": "以下哪个是编程语言？",
+    "options": [
+      {"value": "A", "label": "A. HTML"},
+      {"value": "B", "label": "B. CSS"},
+      {"value": "C", "label": "C. JavaScript"},
+      {"value": "D", "label": "D. Python"}
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "question": "JavaScript是一种什么类型的语言？",
+    "options": [
+      {"value": "A", "label": "A. 脚本语言"},
+      {"value": "B", "label": "B. 标记语言"},
+      {"value": "C", "label": "C. 编译语言"},
+      {"value": "D", "label": "D. 机器语言"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "HTML是用来做什么的？",
+    "options": [
+      {"value": "A", "label": "A. 定义网页内容"},
+      {"value": "B", "label": "B. 控制网页样式"},
+      {"value": "C", "label": "C. 添加交互功能"},
+      {"value": "D", "label": "D. 定义数据库结构"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Python是一种什么类型的语言？",
+    "options": [
+      {"value": "A", "label": "A. 脚本语言"},
+      {"value": "B", "label": "B. 标记语言"},
+      {"value": "C", "label": "C. 编译语言"},
+      {"value": "D", "label": "D. 机器语言"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "CSS是用来做什么的？",
+    "options": [
+      {"value": "A", "label": "A. 控制网页样式"},
+      {"value": "B", "label": "B. 定义网页内容"},
+      {"value": "C", "label": "C. 添加交互功能"},
+      {"value": "D", "label": "D. 进行数据库查询"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "以下哪个不是数据库管理系统？",
+    "options": [
+      {"value": "A", "label": "A. MySQL"},
+      {"value": "B", "label": "B. PostgreSQL"},
+      {"value": "C", "label": "C. MongoDB"},
+      {"value": "D", "label": "D. JavaScript"}
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "question": "哪个国家以樱花著名？",
+    "options": [
+      {"value": "A", "label": "A. 日本"},
+      {"value": "B", "label": "B. 中国"},
+      {"value": "C", "label": "C. 泰国"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "下列哪个城市被称为“浪漫之都”？",
+    "options": [
+      {"value": "A", "label": "A. 巴黎"},
+      {"value": "B", "label": "B. 罗马"},
+      {"value": "C", "label": "C. 伦敦"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "世界上最大的洲是？",
+    "options": [
+      {"value": "A", "label": "A. 亚洲"},
+      {"value": "B", "label": "B. 非洲"},
+      {"value": "C", "label": "C. 北美洲"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "以下哪个城市是意大利的首都？",
+    "options": [
+      {"value": "A", "label": "A. 罗马"},
+      {"value": "B", "label": "B. 米兰"},
+      {"value": "C", "label": "C. 威尼斯"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "哪个星座的代表符号是狮子？",
+    "options": [
+      {"value": "A", "label": "A. 狮子座"},
+      {"value": "B", "label": "B. 处女座"},
+      {"value": "C", "label": "C. 双子座"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "下列哪个国家以自由女神像闻名？",
+    "options": [
+      {"value": "A", "label": "A. 美国"},
+      {"value": "B", "label": "B. 加拿大"},
+      {"value": "C", "label": "C. 澳大利亚"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "世界上最长的河流是？",
+    "options": [
+      {"value": "A", "label": "A. 尼罗河"},
+      {"value": "B", "label": "B. 亚马逊河"},
+      {"value": "C", "label": "C. 长江"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "下列哪个国家拥有最多的岛屿？",
+    "options": [
+      {"value": "A", "label": "A. 瑞典"},
+      {"value": "B", "label": "B. 希腊"},
+      {"value": "C", "label": "C. 印度尼西亚"}
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "question": "以下哪个行星是太阳系中最大的行星？",
+    "options": [
+      {"value": "A", "label": "A. 木星"},
+      {"value": "B", "label": "B. 土星"},
+      {"value": "C", "label": "C. 地球"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "世界上最高的山峰是？",
+    "options": [
+      {"value": "A", "label": "A. 珠穆朗玛峰"},
+      {"value": "B", "label": "B. 喜马拉雅山"},
+      {"value": "C", "label": "C. 埃弗勒斯峰"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "以下哪是世界上最大的动物？",
+    "options": [
+      {"value": "A", "label": "A. 蓝鲸"},
+      {"value": "B", "label": "B. 大象"},
+      {"value": "C", "label": "C. 长颈鹿"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "以下哪个国家以沙漠地貌最为著名？",
+    "options": [
+      {"value": "A", "label": "A. 澳大利亚"},
+      {"value": "B", "label": "B. 埃及"},
+      {"value": "C", "label": "C. 加拿大"}
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "question": "世界上最繁忙的航空枢纽在哪个城市？",
+    "options": [
+      {"value": "A", "label": "A. 亚特兰大"},
+      {"value": "B", "label": "B. 北京"},
+      {"value": "C", "label": "C. 伦敦"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "以下哪个国家拥有最多的奥斯卡奖最佳影片？",
+    "options": [
+      {"value": "A", "label": "A. 美国"},
+      {"value": "B", "label": "B. 英国"},
+      {"value": "C", "label": "C. 法国"}
+    ],
+    "correctAnswer": "A"
+  }
+]

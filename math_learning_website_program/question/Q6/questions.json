@@ -1,0 +1,42 @@
+[
+  {
+    "question": "判断级数 ∑(n=1 to ∞) (1/2^n) 是否收敛。",
+    "options": [
+      {"value": "A", "label": "收敛"},
+      {"value": "B", "label": "发散"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "判断级数 ∑(n=1 to ∞) (1/n) 是否收敛。",
+    "options": [
+      {"value": "A", "label": "收敛"},
+      {"value": "B", "label": "发散"}
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "question": "判断级数 ∑(n=1 to ∞) (n^2 / 2^n) 是否收敛。",
+    "options": [
+      {"value": "A", "label": "收敛"},
+      {"value": "B", "label": "发散"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "判断级数 ∑(n=1 to ∞) (1/(n^2 + n)) 是否收敛。",
+    "options": [
+      {"value": "A", "label": "收敛"},
+      {"value": "B", "label": "发散"}
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "question": "判断级数 ∑(n=1 to ∞) (n / (2^n)) 是否收敛。",
+    "options": [
+      {"value": "A", "label": "收敛"},
+      {"value": "B", "label": "发散"}
+    ],
+    "correctAnswer": "A"
+  }
+]

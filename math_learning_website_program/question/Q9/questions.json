@@ -1,0 +1,52 @@
+[
+  {
+    "question": "将函数 f(x) = sin(x) 在区间 [-π, π] 上展开为傅里叶级数，求其第3项的系数。",
+    "options": [
+      {"value": "A", "label": "0"},
+      {"value": "B", "label": "1/π"},
+      {"value": "C", "label": "-1/π"},
+      {"value": "D", "label": "1/3π"}
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "question": "将函数 f(x) = x^2 在区间 [-π, π] 上展开为傅里叶级数，求其第4项的系数。",
+    "options": [
+      {"value": "A", "label": "0"},
+      {"value": "B", "label": "1/π^2"},
+      {"value": "C", "label": "-1/π^2"},
+      {"value": "D", "label": "1/2π^2"}
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "question": "将函数 f(x) = |x| 在区间 [-π, π] 上展开为傅里叶级数，求其第5项的系数。",
+    "options": [
+      {"value": "A", "label": "0"},
+      {"value": "B", "label": "2/π^2"},
+      {"value": "C", "label": "-2/π^2"},
+      {"value": "D", "label": "2/5π^2"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "将函数 f(x) = x^3 在区间 [-π, π] 上展开为傅里叶级数，求其第2项的系数。",
+    "options": [
+      {"value": "A", "label": "0"},
+      {"value": "B", "label": "1/π^3"},
+      {"value": "C", "label": "-1/π^3"},
+      {"value": "D", "label": "1/4π^3"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "将函数 f(x) = e^x 在区间 [-π, π] 上展开为傅里叶级数，求其第3项的系数。",
+    "options": [
+      {"value": "A", "label": "0"},
+      {"value": "B", "label": "e^(π-3)"},
+      {"value": "C", "label": "e^(-π-3)"},
+      {"value": "D", "label": "e^(-π+3)"}
+    ],
+    "correctAnswer": "D"
+  }
+]

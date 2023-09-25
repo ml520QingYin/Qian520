@@ -1,0 +1,52 @@
+[
+  {
+    "question": "计算定积分 ∫[0, 1] (3x^2 - 4x + 2) dx。",
+    "options": [
+      {"value": "A", "label": "A. 1"},
+      {"value": "B", "label": "B. 2"},
+      {"value": "C", "label": "C. 3"},
+      {"value": "D", "label": "D. 4"}
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "question": "计算定积分 ∫[1, 2] (2x^3 - 3x^2 + 4x) dx。",
+    "options": [
+      {"value": "A", "label": "A. 4"},
+      {"value": "B", "label": "B. 5"},
+      {"value": "C", "label": "C. 6"},
+      {"value": "D", "label": "D. 7"}
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "question": "计算定积分 ∫[0, π/2] (sin(x) + cos(x)) dx。",
+    "options": [
+      {"value": "A", "label": "A. 1"},
+      {"value": "B", "label": "B. √2"},
+      {"value": "C", "label": "C. 2"},
+      {"value": "D", "label": "D. π"}
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "question": "计算变限积分 ∫[a, b] (3x^2 - 2x + 1) dx，其中 a = 1，b = 2。",
+    "options": [
+      {"value": "A", "label": "A. 2"},
+      {"value": "B", "label": "B. 4"},
+      {"value": "C", "label": "C. 6"},
+      {"value": "D", "label": "D. 8"}
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "question": "计算变限积分 ∫[0, π] (sin(x) + cos(x)) dx。",
+    "options": [
+      {"value": "A", "label": "A. 0"},
+      {"value": "B", "label": "B. 1"},
+      {"value": "C", "label": "C. -1"},
+      {"value": "D", "label": "D. 2"}
+    ],
+    "correctAnswer": "D"
+  }
+]

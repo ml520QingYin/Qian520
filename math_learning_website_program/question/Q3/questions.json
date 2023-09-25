@@ -1,0 +1,52 @@
+[
+  {
+    "question": "求函数 f(x) = 3x^2 - 4x + 2 的不定积分。",
+    "options": [
+      {"value": "A", "label": "A. ∫ f(x) dx = x^3 - 2x^2 + 2x + C"},
+      {"value": "B", "label": "B. ∫ f(x) dx = x^3 - 2x^2 - 2x + C"},
+      {"value": "C", "label": "C. ∫ f(x) dx = x^3 - 2x^2 + C"},
+      {"value": "D", "label": "D. ∫ f(x) dx = x^3 - 2x + C"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "求函数 f(x) = 1/x 的不定积分。",
+    "options": [
+      {"value": "A", "label": "A. ∫ f(x) dx = ln|x| + C"},
+      {"value": "B", "label": "B. ∫ f(x) dx = ln(1/x) + C"},
+      {"value": "C", "label": "C. ∫ f(x) dx = 1/ln(x) + C"},
+      {"value": "D", "label": "D. ∫ f(x) dx = 1/x + C"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "求函数 f(x) = e^x 的不定积分。",
+    "options": [
+      {"value": "A", "label": "A. ∫ f(x) dx = e^x + C"},
+      {"value": "B", "label": "B. ∫ f(x) dx = x^2 + C"},
+      {"value": "C", "label": "C. ∫ f(x) dx = ln(x) + C"},
+      {"value": "D", "label": "D. ∫ f(x) dx = cos(x) + C"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "求函数 f(x) = sin(x) 的不定积分。",
+    "options": [
+      {"value": "A", "label": "A. ∫ f(x) dx = cos(x) + C"},
+      {"value": "B", "label": "B. ∫ f(x) dx = sin(x) + C"},
+      {"value": "C", "label": "C. ∫ f(x) dx = -cos(x) + C"},
+      {"value": "D", "label": "D. ∫ f(x) dx = -sin(x) + C"}
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "question": "求函数 f(x) = 2x 的不定积分。",
+    "options": [
+      {"value": "A", "label": "A. ∫ f(x) dx = 2x^2 + C"},
+      {"value": "B", "label": "B. ∫ f(x) dx = x^2 + C"},
+      {"value": "C", "label": "C. ∫ f(x) dx = 2x + C"},
+      {"value": "D", "label": "D. ∫ f(x) dx = x + C"}
+    ],
+    "correctAnswer": "B"
+  }
+]
