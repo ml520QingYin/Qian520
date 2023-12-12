@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Word Frequency and Word Cloud Generator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="input-container">
+            <h4>Word Frequency and Word Cloud Generator</h4>
+            <label for="textInput">Input Text:</label>
+            <textarea id="textInput" rows="4"></textarea>
+            <button id="generateWordFrequencyButton" onclick="generateWordFrequency()">Frequency</button>
+            <button id="generateWordCloudButton" onclick="generateWordCloud()">WordCloud</button>
+        </div>
+        <div class="output-container">
+            <div class="output" id="wordFrequencyOutput"></div>
+            <div class="output" id="wordCloudOutput"></div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-cloud/1.2.5/d3.layout.cloud.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
