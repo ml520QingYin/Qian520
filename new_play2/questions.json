@@ -1,0 +1,1326 @@
+[
+  {
+    "question": "下列说法不正确的是？",
+    "options": [
+      {"value": "A", "label": "A. 程琬青是神"},
+      {"value": "B", "label": "B. 呼噜噜是神"},
+      {"value": "C", "label": "C. 程琬青是呼噜噜"},
+      {"value": "D", "label": "D. 程琬青不打呼噜噜"}
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "question": "以下哪个是编程语言？",
+    "options": [
+      {"value": "A", "label": "A. HTML"},
+      {"value": "B", "label": "B. CSS"},
+      {"value": "C", "label": "C. JavaScript"},
+      {"value": "D", "label": "D. Python"}
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "question": "JavaScript是一种什么类型的语言？",
+    "options": [
+      {"value": "A", "label": "A. 脚本语言"},
+      {"value": "B", "label": "B. 标记语言"},
+      {"value": "C", "label": "C. 编译语言"},
+      {"value": "D", "label": "D. 机器语言"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "HTML是用来做什么的？",
+    "options": [
+      {"value": "A", "label": "A. 定义网页内容"},
+      {"value": "B", "label": "B. 控制网页样式"},
+      {"value": "C", "label": "C. 添加交互功能"},
+      {"value": "D", "label": "D. 定义数据库结构"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Python是一种什么类型的语言？",
+    "options": [
+      {"value": "A", "label": "A. 脚本语言"},
+      {"value": "B", "label": "B. 标记语言"},
+      {"value": "C", "label": "C. 编译语言"},
+      {"value": "D", "label": "D. 机器语言"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "CSS是用来做什么的？",
+    "options": [
+      {"value": "A", "label": "A. 控制网页样式"},
+      {"value": "B", "label": "B. 定义网页内容"},
+      {"value": "C", "label": "C. 添加交互功能"},
+      {"value": "D", "label": "D. 进行数据库查询"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "以下哪个不是数据库管理系统？",
+    "options": [
+      {"value": "A", "label": "A. MySQL"},
+      {"value": "B", "label": "B. PostgreSQL"},
+      {"value": "C", "label": "C. MongoDB"},
+      {"value": "D", "label": "D. JavaScript"}
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "question": "哪个国家以樱花著名？",
+    "options": [
+      {"value": "A", "label": "A. 日本"},
+      {"value": "B", "label": "B. 中国"},
+      {"value": "C", "label": "C. 泰国"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "下列哪个城市被称为“浪漫之都”？",
+    "options": [
+      {"value": "A", "label": "A. 巴黎"},
+      {"value": "B", "label": "B. 罗马"},
+      {"value": "C", "label": "C. 伦敦"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "世界上最大的洲是？",
+    "options": [
+      {"value": "A", "label": "A. 亚洲"},
+      {"value": "B", "label": "B. 非洲"},
+      {"value": "C", "label": "C. 北美洲"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "以下哪个城市是意大利的首都？",
+    "options": [
+      {"value": "A", "label": "A. 罗马"},
+      {"value": "B", "label": "B. 米兰"},
+      {"value": "C", "label": "C. 威尼斯"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "哪个星座的代表符号是狮子？",
+    "options": [
+      {"value": "A", "label": "A. 狮子座"},
+      {"value": "B", "label": "B. 处女座"},
+      {"value": "C", "label": "C. 双子座"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "下列哪个国家以自由女神像闻名？",
+    "options": [
+      {"value": "A", "label": "A. 美国"},
+      {"value": "B", "label": "B. 加拿大"},
+      {"value": "C", "label": "C. 澳大利亚"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "世界上最长的河流是？",
+    "options": [
+      {"value": "A", "label": "A. 尼罗河"},
+      {"value": "B", "label": "B. 亚马逊河"},
+      {"value": "C", "label": "C. 长江"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "下列哪个国家拥有最多的岛屿？",
+    "options": [
+      {"value": "A", "label": "A. 瑞典"},
+      {"value": "B", "label": "B. 希腊"},
+      {"value": "C", "label": "C. 印度尼西亚"}
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "question": "以下哪个行星是太阳系中最大的行星？",
+    "options": [
+      {"value": "A", "label": "A. 木星"},
+      {"value": "B", "label": "B. 土星"},
+      {"value": "C", "label": "C. 地球"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "世界上最高的山峰是？",
+    "options": [
+      {"value": "A", "label": "A. 珠穆朗玛峰"},
+      {"value": "B", "label": "B. 喜马拉雅山"},
+      {"value": "C", "label": "C. 埃弗勒斯峰"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "以下哪是世界上最大的动物？",
+    "options": [
+      {"value": "A", "label": "A. 蓝鲸"},
+      {"value": "B", "label": "B. 大象"},
+      {"value": "C", "label": "C. 长颈鹿"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "以下哪个国家以沙漠地貌最为著名？",
+    "options": [
+      {"value": "A", "label": "A. 澳大利亚"},
+      {"value": "B", "label": "B. 埃及"},
+      {"value": "C", "label": "C. 加拿大"}
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "question": "世界上最繁忙的航空枢纽在哪个城市？",
+    "options": [
+      {"value": "A", "label": "A. 亚特兰大"},
+      {"value": "B", "label": "B. 北京"},
+      {"value": "C", "label": "C. 伦敦"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "以下哪个国家拥有最多的奥斯卡奖最佳影片？",
+    "options": [
+      {"value": "A", "label": "A. 美国"},
+      {"value": "B", "label": "B. 英国"},
+      {"value": "C", "label": "C. 法国"}
+    ],
+    "correctAnswer": "A"
+  },
+  {
+  "question": "在计算机科学中，哪种语言被广泛用于网页开发？",
+  "options": [
+    {"value": "A", "label": "A. Java"},
+    {"value": "B", "label": "B. C++"},
+    {"value": "C", "label": "C. HTML"}
+  ],
+  "correctAnswer": "C"
+},
+{
+  "question": "谁是画作《蒙娜丽莎》的作者？",
+  "options": [
+    {"value": "A", "label": "A. 文森特·梵高"},
+    {"value": "B", "label": "B. 列奥纳多·达芬奇"},
+    {"value": "C", "label": "C. 毕加索"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "以下哪种能源被认为是可再生资源？",
+  "options": [
+    {"value": "A", "label": "A. 煤炭"},
+    {"value": "B", "label": "B. 太阳能"},
+    {"value": "C", "label": "C. 天然气"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "第一部iPhone是哪一年发布的？",
+  "options": [
+    {"value": "A", "label": "A. 2001年"},
+    {"value": "B", "label": "B. 2007年"},
+    {"value": "C", "label": "C. 2010年"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "世界上最大的海洋是哪一个？",
+  "options": [
+    {"value": "A", "label": "A. 大西洋"},
+    {"value": "B", "label": "B. 太平洋"},
+    {"value": "C", "label": "C. 印度洋"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "在计算机科学中，哪种语言被广泛用于网页开发？",
+  "options": [
+    {"value": "A", "label": "A. Java"},
+    {"value": "B", "label": "B. C++"},
+    {"value": "C", "label": "C. HTML"}
+  ],
+  "correctAnswer": "C"
+},
+{
+  "question": "谁是画作《蒙娜丽莎》的作者？",
+  "options": [
+    {"value": "A", "label": "A. 文森特·梵高"},
+    {"value": "B", "label": "B. 列奥纳多·达芬奇"},
+    {"value": "C", "label": "C. 毕加索"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "以下哪种能源被认为是可再生资源？",
+  "options": [
+    {"value": "A", "label": "A. 煤炭"},
+    {"value": "B", "label": "B. 太阳能"},
+    {"value": "C", "label": "C. 天然气"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "第一部iPhone是哪一年发布的？",
+  "options": [
+    {"value": "A", "label": "A. 2001年"},
+    {"value": "B", "label": "B. 2007年"},
+    {"value": "C", "label": "C. 2010年"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "世界上最大的海洋是哪一个？",
+  "options": [
+    {"value": "A", "label": "A. 大西洋"},
+    {"value": "B", "label": "B. 太平洋"},
+    {"value": "C", "label": "C. 印度洋"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "世界上最冷的气候记录是在哪里测得的？",
+  "options": [
+    {"value": "A", "label": "A. 阿拉斯加"},
+    {"value": "B", "label": "B. 西伯利亚"},
+    {"value": "C", "label": "C. 南极"}
+  ],
+  "correctAnswer": "C"
+},
+
+{
+  "question": "哪本书被认为是简·奥斯汀的杰作？",
+  "options": [
+    {"value": "A", "label": "A. 傲慢与偏见"},
+    {"value": "B", "label": "B. 琼斯的日记"},
+    {"value": "C", "label": "C. 红与黑"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "以下哪个国家是茶的起源地？",
+  "options": [
+    {"value": "A", "label": "A. 印度"},
+    {"value": "B", "label": "B. 中国"},
+    {"value": "C", "label": "C. 日本"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "哪种元素在地球的地壳中含量最多？",
+  "options": [
+    {"value": "A", "label": "A. 氧"},
+    {"value": "B", "label": "B. 铁"},
+    {"value": "C", "label": "C. 硅"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "以下哪个城市被称为“世界设计之都”？",
+  "options": [
+    {"value": "A", "label": "A. 米兰"},
+    {"value": "B", "label": "B. 巴黎"},
+    {"value": "C", "label": "C. 东京"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "哪个国家被认为是足球的发源地？",
+  "options": [
+    {"value": "A", "label": "A. 巴西"},
+    {"value": "B", "label": "B. 英国"},
+    {"value": "C", "label": "C. 意大利"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "哪种维生素对视力有重要作用？",
+  "options": [
+    {"value": "A", "label": "A. 维生素C"},
+    {"value": "B", "label": "B. 维生素D"},
+    {"value": "C", "label": "C. 维生素A"}
+  ],
+  "correctAnswer": "C"
+},
+{
+  "question": "以下哪部古典音乐作品是贝多芬的作品？",
+  "options": [
+    {"value": "A", "label": "A. 《命运交响曲》"},
+    {"value": "B", "label": "B. 《蓝色多瑙河》"},
+    {"value": "C", "label": "C. 《四季》"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "哪个城市被称为‘东方之珠’？",
+  "options": [
+    {"value": "A", "label": "A. 上海"},
+    {"value": "B", "label": "B. 香港"},
+    {"value": "C", "label": "C. 新加坡"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "以下哪个物种是哺乳类动物？",
+  "options": [
+    {"value": "A", "label": "A. 鳄鱼"},
+    {"value": "B", "label": "B. 蝙蝠"},
+    {"value": "C", "label": "C. 鲨鱼"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "哪个城市是美国的首都？",
+  "options": [
+    {"value": "A", "label": "A. 纽约"},
+    {"value": "B", "label": "B. 洛杉矶"},
+    {"value": "C", "label": "C. 华盛顿D.C."}
+  ],
+  "correctAnswer": "C"
+},
+{
+  "question": "哪种矿物被称为‘硬币的金属’？",
+  "options": [
+    {"value": "A", "label": "A. 铁"},
+    {"value": "B", "label": "B. 铜"},
+    {"value": "C", "label": "C. 铅"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "哪种动物是澳大利亚的象征？",
+  "options": [
+    {"value": "A", "label": "A. 袋鼠"},
+    {"value": "B", "label": "B. 美洲狮"},
+    {"value": "C", "label": "C. 老鹰"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "哪种疾病被称为‘沉默的杀手’？",
+  "options": [
+    {"value": "A", "label": "A. 糖尿病"},
+    {"value": "B", "label": "B. 高血压"},
+    {"value": "C", "label": "C. 心脏病"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "哪个国家是世界上最大的咖啡生产国？",
+  "options": [
+    {"value": "A", "label": "A. 哥伦比亚"},
+    {"value": "B", "label": "B. 巴西"},
+    {"value": "C", "label": "C. 越南"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "以下哪个国家不是联合国安全理事会常任理事国？",
+  "options": [
+    {"value": "A", "label": "A. 德国"},
+    {"value": "B", "label": "B. 中国"},
+    {"value": "C", "label": "C. 俄罗斯"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "哪种材料被广泛用于制作防弹衣？",
+  "options": [
+    {"value": "A", "label": "A. 尼龙"},
+    {"value": "B", "label": "B. Kevlar"},
+    {"value": "C", "label": "C. 聚酯"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "以下哪个城市是2020年奥林匹克运动会的主办城市？",
+  "options": [
+    {"value": "A", "label": "A. 东京"},
+    {"value": "B", "label": "B. 伦敦"},
+    {"value": "C", "label": "C. 巴黎"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "哪种元素被用于测量体温？",
+  "options": [
+    {"value": "A", "label": "A. 汞"},
+    {"value": "B", "label": "B. 铝"},
+    {"value": "C", "label": "C. 铁"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "以下哪部是村上春树的小说？",
+  "options": [
+    {"value": "A", "label": "A. 《挪威的森林》"},
+    {"value": "B", "label": "B. 《追风筝的人》"},
+    {"value": "C", "label": "C. 《百年孤独》"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "以下哪个国家是世界上最大的岛屿？",
+  "options": [
+    {"value": "A", "label": "A. 澳大利亚"},
+    {"value": "B", "label": "B. 格陵兰"},
+    {"value": "C", "label": "C. 新几内亚"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "哪种动物是‘夜视仪’？",
+  "options": [
+    {"value": "A", "label": "A. 猫头鹰"},
+    {"value": "B", "label": "B. 蝙蝠"},
+    {"value": "C", "label": "C. 蛇"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "以下哪个物质是维生素C的主要来源？",
+  "options": [
+    {"value": "A", "label": "A. 橙子"},
+    {"value": "B", "label": "B. 牛肉"},
+    {"value": "C", "label": "C. 鸡蛋"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "哪座山被称为‘世界屋脊’？",
+  "options": [
+    {"value": "A", "label": "A. 珠穆朗玛峰"},
+    {"value": "B", "label": "B. K2山"},
+    {"value": "C", "label": "C. 喜马拉雅山脉"}
+  ],
+  "correctAnswer": "C"
+},
+{
+  "question": "以下哪个作家是《哈利波特》系列的作者？",
+  "options": [
+    {"value": "A", "label": "A. J.K. 罗琳"},
+    {"value": "B", "label": "B. 乔治·R.R. 马丁"},
+    {"value": "C", "label": "C. 斯蒂芬·金"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "哪个城市是著名的‘雾都’？",
+  "options": [
+    {"value": "A", "label": "A. 纽约"},
+    {"value": "B", "label": "B. 伦敦"},
+    {"value": "C", "label": "C. 巴黎"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "哪种植物是国际象征和平的象征？",
+  "options": [
+    {"value": "A", "label": "A. 橄榄树"},
+    {"value": "B", "label": "B. 玫瑰"},
+    {"value": "C", "label": "C. 竹子"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "以下哪个国家拥有最长的寿命平均值？",
+  "options": [
+    {"value": "A", "label": "A. 美国"},
+    {"value": "B", "label": "B. 日本"},
+    {"value": "C", "label": "C. 法国"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "哪个国家被称为‘千湖之国’？",
+  "options": [
+    {"value": "A", "label": "A. 芬兰"},
+    {"value": "B", "label": "B. 加拿大"},
+    {"value": "C", "label": "C. 瑞士"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "死海位于哪两个国家之间？",
+  "options": [
+    {"value": "A", "label": "A. 以色列和约旦"},
+    {"value": "B", "label": "B. 埃及和苏丹"},
+    {"value": "C", "label": "C. 伊朗和伊拉克"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "以下哪座山是欧洲最高峰？",
+  "options": [
+    {"value": "A", "label": "A. 蒙特罗萨峰"},
+    {"value": "B", "label": "B. 勃朗峰"},
+    {"value": "C", "label": "C. 埃尔布鲁士山"}
+  ],
+  "correctAnswer": "C"
+},
+{
+  "question": "尼罗河流经哪些国家？",
+  "options": [
+    {"value": "A", "label": "A. 埃及和苏丹"},
+    {"value": "B", "label": "B. 埃及、苏丹和乌干达等"},
+    {"value": "C", "label": "C. 只有埃及"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "世界上最大的珊瑚礁系统是什么？",
+  "options": [
+    {"value": "A", "label": "A. 大堡礁"},
+    {"value": "B", "label": "B. 菲律宾珊瑚礁"},
+    {"value": "C", "label": "C. 红海珊瑚礁"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "哪个国家有世界上最多的火山？",
+  "options": [
+    {"value": "A", "label": "A. 美国"},
+    {"value": "B", "label": "B. 印度尼西亚"},
+    {"value": "C", "label": "C. 日本"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "亚马孙雨林位于哪个国家的大部分地区？",
+  "options": [
+    {"value": "A", "label": "A. 委内瑞拉"},
+    {"value": "B", "label": "B. 巴西"},
+    {"value": "C", "label": "C. 哥伦比亚"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "哪个洲被称为‘火焰之地’？",
+  "options": [
+    {"value": "A", "label": "A. 非洲"},
+    {"value": "B", "label": "B. 南美洲"},
+    {"value": "C", "label": "C. 澳洲"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "哪个国家拥有世界最长的海岸线？",
+  "options": [
+    {"value": "A", "label": "A. 中国"},
+    {"value": "B", "label": "B. 加拿大"},
+    {"value": "C", "label": "C. 澳大利亚"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "安第斯山脉位于哪个国家的大部分地区？",
+  "options": [
+    {"value": "A", "label": "A. 阿根廷"},
+    {"value": "B", "label": "B. 秘鲁"},
+    {"value": "C", "label": "C. 玻利维亚"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "哪个国家是世界上最大的岛屿？",
+  "options": [
+    {"value": "A", "label": "A. 澳大利亚"},
+    {"value": "B", "label": "B. 格陵兰"},
+    {"value": "C", "label": "C. 新几内亚"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "喜马拉雅山脉不经过以下哪个国家？",
+  "options": [
+    {"value": "A", "label": "A. 尼泊尔"},
+    {"value": "B", "label": "B. 不丹"},
+    {"value": "C", "label": "C. 泰国"}
+  ],
+  "correctAnswer": "C"
+},
+{
+  "question": "地球上最大的沙漠是？",
+  "options": [
+    {"value": "A", "label": "A. 撒哈拉沙漠"},
+    {"value": "B", "label": "B. 阿拉伯沙漠"},
+    {"value": "C", "label": "C. 戈壁沙漠"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "以下哪个湖泊是世界上最深的？",
+  "options": [
+    {"value": "A", "label": "A. 贝加尔湖"},
+    {"value": "B", "label": "B. 大熊湖"},
+    {"value": "C", "label": "C. 东非大裂谷湖"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "以下哪个是世界上径流量最大的河流？",
+  "options": [
+    {"value": "A", "label": "A. 尼罗河"},
+    {"value": "B", "label": "B. 亚马逊河"},
+    {"value": "C", "label": "C. 长江"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "以下哪座山是非洲最高峰？",
+  "options": [
+    {"value": "A", "label": "A. 吉力马扎罗山"},
+    {"value": "B", "label": "B. 肯尼亚山"},
+    {"value": "C", "label": "C. 阿特拉斯山"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "以下哪个海洋是地球上最深的海洋？",
+  "options": [
+    {"value": "A", "label": "A. 北冰洋"},
+    {"value": "B", "label": "B. 太平洋"},
+    {"value": "C", "label": "C. 大西洋"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "以下哪个海是世界上最大的内陆海？",
+  "options": [
+    {"value": "A", "label": "A. 里海"},
+    {"value": "B", "label": "B. 死海"},
+    {"value": "C", "label": "C. 黑海"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "世界上最大的热带雨林是哪一个？",
+  "options": [
+    {"value": "A", "label": "A. 亚马逊雨林"},
+    {"value": "B", "label": "B. 中非雨林"},
+    {"value": "C", "label": "C. 东南亚雨林"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "以下哪个湖泊是非洲最大的淡水湖？",
+  "options": [
+    {"value": "A", "label": "A. 维多利亚湖"},
+    {"value": "B", "label": "B. 塔纳湖"},
+    {"value": "C", "label": "C. 马拉维湖"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "哪种经济体制强调中央计划和政府控制？",
+  "options": [
+    {"value": "A", "label": "A. 市场经济"},
+    {"value": "B", "label": "B. 计划经济"},
+    {"value": "C", "label": "C. 混合经济"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "什么是通货膨胀？",
+  "options": [
+    {"value": "A", "label": "A. 货币价值上升"},
+    {"value": "B", "label": "B. 商品价格下降"},
+    {"value": "C", "label": "C. 价格普遍上升"}
+  ],
+  "correctAnswer": "C"
+},
+{
+  "question": "什么是GDP的全称？",
+  "options": [
+    {"value": "A", "label": "A. Gross Domestic Product"},
+    {"value": "B", "label": "B. General Domestic Product"},
+    {"value": "C", "label": "C. Global Domestic Product"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "自由贸易主要优势是什么？",
+  "options": [
+    {"value": "A", "label": "A. 保护本国工业"},
+    {"value": "B", "label": "B. 增加就业机会"},
+    {"value": "C", "label": "C. 降低商品和服务成本"}
+  ],
+  "correctAnswer": "C"
+},
+{
+  "question": "经济学中，需求与供给法则称当价格上升时，需求会怎样？",
+  "options": [
+    {"value": "A", "label": "A. 增加"},
+    {"value": "B", "label": "B. 减少"},
+    {"value": "C", "label": "C. 不变"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "哪个国家是世界上最大的经济体？",
+  "options": [
+    {"value": "A", "label": "A. 中国"},
+    {"value": "B", "label": "B. 美国"},
+    {"value": "C", "label": "C. 日本"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "股票市场中‘牛市’代表什么？",
+  "options": [
+    {"value": "A", "label": "A. 市场上升"},
+    {"value": "B", "label": "B. 市场下跌"},
+    {"value": "C", "label": "C. 市场不稳定"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "以下哪个是直接税的例子？",
+  "options": [
+    {"value": "A", "label": "A. 销售税"},
+    {"value": "B", "label": "B. 收入税"},
+    {"value": "C", "label": "C. 关税"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "什么是经济衰退的标志？",
+  "options": [
+    {"value": "A", "label": "A. GDP连续两个季度增长"},
+    {"value": "B", "label": "B. GDP连续两个季度下降"},
+    {"value": "C", "label": "C. 高通货膨胀"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "以下哪个不是中央银行的功能？",
+  "options": [
+    {"value": "A", "label": "A. 设定利率"},
+    {"value": "B", "label": "B. 批准预算"},
+    {"value": "C", "label": "C. 控制货币供给"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "在宏观经济中，菲利普斯曲线描述的关系是什么？",
+  "options": [
+    {"value": "A", "label": "A. GDP与失业率"},
+    {"value": "B", "label": "B. 通货膨胀与失业率"},
+    {"value": "C", "label": "C. 利率与投资"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "货币政策主要由哪个机构制定？",
+  "options": [
+    {"value": "A", "label": "A. 财政部"},
+    {"value": "B", "label": "B. 中央银行"},
+    {"value": "C", "label": "C. 国会"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "什么是金融市场的主要功能之一？",
+  "options": [
+    {"value": "A", "label": "A. 制定经济政策"},
+    {"value": "B", "label": "B. 促进资金的流动"},
+    {"value": "C", "label": "C. 提供社会福利"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "比特币是什么类型的货币？",
+  "options": [
+    {"value": "A", "label": "A. 实体货币"},
+    {"value": "B", "label": "B. 加密货币"},
+    {"value": "C", "label": "C. 储备货币"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "哪个经济学家提出了‘看不见的手’的概念？",
+  "options": [
+    {"value": "A", "label": "A. 亚当·斯密"},
+    {"value": "B", "label": "B. 约翰·凯恩斯"},
+    {"value": "C", "label": "C. 卡尔·马克思"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "哪个组织主要负责调控国际油价？",
+  "options": [
+    {"value": "A", "label": "A. 国际货币基金组织"},
+    {"value": "B", "label": "B. 世界贸易组织"},
+    {"value": "C", "label": "C. 石油输出国组织（OPEC）"}
+  ],
+  "correctAnswer": "C"
+},
+{
+  "question": "在市场经济中，价格主要由什么决定？",
+  "options": [
+    {"value": "A", "label": "A. 政府"},
+    {"value": "B", "label": "B. 供需关系"},
+    {"value": "C", "label": "C. 国际因素"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "以下哪个术语描述了当一国货币兑换为另一国货币的比率？",
+  "options": [
+    {"value": "A", "label": "A. 利率"},
+    {"value": "B", "label": "B. 汇率"},
+    {"value": "C", "label": "C. 折扣率"}
+  ],
+  "correctAnswer": "B"
+},
+
+{
+  "question": "什么是多边贸易谈判？",
+  "options": [
+    {"value": "A", "label": "A. 两国之间的谈判"},
+    {"value": "B", "label": "B. 少数国家之间的谈判"},
+    {"value": "C", "label": "C. 许多国家之间的谈判"}
+  ],
+  "correctAnswer": "C"
+},
+{
+  "question": "什么概念描述了一个国家对另一个国家的经济援助？",
+  "options": [
+    {"value": "A", "label": "A. 经济制裁"},
+    {"value": "B", "label": "B. 外援"},
+    {"value": "C", "label": "C. 贸易壁垒"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "什么是消费者剩余？",
+  "options": [
+    {"value": "A", "label": "A. 消费者支付的金额"},
+    {"value": "B", "label": "B. 消费者愿意支付的金额和实际支付的金额之间的差额"},
+    {"value": "C", "label": "C. 消费者对商品的需求"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "经济全球化的主要批评是什么？",
+  "options": [
+    {"value": "A", "label": "A. 增加了国家间的贸易"},
+    {"value": "B", "label": "B. 导致贫富差距扩大"},
+    {"value": "C", "label": "C. 促进了技术交流"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "哪个指标衡量一国所有成年公民的就业情况？",
+  "options": [
+    {"value": "A", "label": "A. GDP"},
+    {"value": "B", "label": "B. 失业率"},
+    {"value": "C", "label": "C. 通货膨胀率"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "什么是云计算？",
+  "options": [
+    {"value": "A", "label": "A. 在本地服务器上存储数据"},
+    {"value": "B", "label": "B. 通过互联网访问计算资源和数据"},
+    {"value": "C", "label": "C. 使用个人电脑进行计算"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "TCP/IP模型中，哪一层负责将数据包从一台计算机传输到另一台计算机？",
+  "options": [
+    {"value": "A", "label": "A. 应用层"},
+    {"value": "B", "label": "B. 传输层"},
+    {"value": "C", "label": "C. 网络层"}
+  ],
+  "correctAnswer": "C"
+},
+{
+  "question": "在编程中，哪种语言被广泛用于机器学习和数据科学？",
+  "options": [
+    {"value": "A", "label": "A. C#"},
+    {"value": "B", "label": "B. Python"},
+    {"value": "C", "label": "C. Java"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "哪一种数据库是非关系型的？",
+  "options": [
+    {"value": "A", "label": "A. Oracle"},
+    {"value": "B", "label": "B. SQL Server"},
+    {"value": "C", "label": "C. MongoDB"}
+  ],
+  "correctAnswer": "C"
+},
+{
+  "question": "什么是大数据的主要特征之一？",
+  "options": [
+    {"value": "A", "label": "A. 小数据集"},
+    {"value": "B", "label": "B. 高速数据处理"},
+    {"value": "C", "label": "C. 低变量数据"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "以下哪个是信息安全的三大基本原则？",
+  "options": [
+    {"value": "A", "label": "A. 速度、精确性、执行力"},
+    {"value": "B", "label": "B. 机密性、完整性、可用性"},
+    {"value": "C", "label": "C. 灵活性、稳定性、扩展性"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "哪个协议是互联网的基本协议之一，负责网页内容的传输？",
+  "options": [
+    {"value": "A", "label": "A. FTP"},
+    {"value": "B", "label": "B. HTTP"},
+    {"value": "C", "label": "C. SMTP"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "在软件开发中，什么是敏捷开发？",
+  "options": [
+    {"value": "A", "label": "A. 一种需求和解决方案通过跨功能团队的合作开发的方法"},
+    {"value": "B", "label": "B. 一种软件仅通过一次测试后就发布的开发方法"},
+    {"value": "C", "label": "C. 一种传统的、按计划进行的开发方法"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "社会学中的‘规范’是指什么？",
+  "options": [
+    {"value": "A", "label": "A. 法律规定的行为"},
+    {"value": "B", "label": "B. 社会期望的行为标准"},
+    {"value": "C", "label": "C. 个人随意的行为"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "‘社会化’过程是指什么？",
+  "options": [
+    {"value": "A", "label": "A. 通过教育获得专业技能"},
+    {"value": "B", "label": "B. 学习并内化社会的规范和价值观"},
+    {"value": "C", "label": "C. 参加社会活动和聚会"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "马克斯·韦伯是如何定义权力的？",
+  "options": [
+    {"value": "A", "label": "A. 通过合作获得支持"},
+    {"value": "B", "label": "B. 控制他人行为的能力"},
+    {"value": "C", "label": "C. 经济资源的占有"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "什么是‘次文化’？",
+  "options": [
+    {"value": "A", "label": "A. 与主流文化完全相反的文化"},
+    {"value": "B", "label": "B. 在主流文化内部存在的、具有独特特征的文化群体"},
+    {"value": "C", "label": "C. 古老的、逐渐消失的文化"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "‘社会阶层’是根据什么来划分的？",
+  "options": [
+    {"value": "A", "label": "A. 教育水平"},
+    {"value": "B", "label": "B. 职业和经济地位"},
+    {"value": "C", "label": "C. 年龄和性别"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "‘社会异化’概念是由哪位思想家提出的？",
+  "options": [
+    {"value": "A", "label": "A. Émile Durkheim"},
+    {"value": "B", "label": "B. Karl Marx"},
+    {"value": "C", "label": "C. Max Weber"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "以下哪个是社会研究的定量方法？",
+  "options": [
+    {"value": "A", "label": "A. 深度访谈"},
+    {"value": "B", "label": "B. 参与观察"},
+    {"value": "C", "label": "C. 调查问卷"}
+  ],
+  "correctAnswer": "C"
+},
+{
+  "question": "结构功能主义在社会学中主张什么？",
+  "options": [
+    {"value": "A", "label": "A. 社会冲突是社会变革的驱动力"},
+    {"value": "B", "label": "B. 每个社会元素对维持整个社会结构都有其功能"},
+    {"value": "C", "label": "C. 社会结构由个体的日常互动构建"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "民主政体的核心特征是什么？",
+  "options": [
+    {"value": "A", "label": "A. 集中制"},
+    {"value": "B", "label": "B. 选举产生的政府"},
+    {"value": "C", "label": "C. 终身任期的领导"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "什么是政治意识形态？",
+  "options": [
+    {"value": "A", "label": "A. 政府的组织结构"},
+    {"value": "B", "label": "B. 一套关于权力和政府的信仰和价值观"},
+    {"value": "C", "label": "C. 国家的法律体系"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "联合国的主要目的是什么？",
+  "options": [
+    {"value": "A", "label": "A. 促进国际经济发展"},
+    {"value": "B", "label": "B. 保持国际和平与安全"},
+    {"value": "C", "label": "C. 提供国际教育合作"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "什么是‘权力分立’的概念？",
+  "options": [
+    {"value": "A", "label": "A. 政府机构不得干预司法"},
+    {"value": "B", "label": "B. 政府的权力应当由不同部门独立行使"},
+    {"value": "C", "label": "C. 所有政治权力集中于一人或一小群人手中"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "哪个理论主张政府应当在经济中扮演最小的角色？",
+  "options": [
+    {"value": "A", "label": "A. 社会主义"},
+    {"value": "B", "label": "B. 自由主义"},
+    {"value": "C", "label": "C. 保守主义"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "在政治学中，‘政治行为主义’强调什么？",
+  "options": [
+    {"value": "A", "label": "A. 侧重于法律和制度的研究"},
+    {"value": "B", "label": "B. 侧重于政治行为的科学分析"},
+    {"value": "C", "label": "C. 强调传统价值和历史的重要性"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "哪个组织主要负责调节跨国欧洲国家的经济合作？",
+  "options": [
+    {"value": "A", "label": "A. 联合国欧洲经济委员会"},
+    {"value": "B", "label": "B. 欧洲联盟"},
+    {"value": "C", "label": "C. 北大西洋公约组织"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "哲学中的‘本体论’是研究什么的？",
+  "options": [
+    {"value": "A", "label": "A. 知识的本质"},
+    {"value": "B", "label": "B. 存在的本质"},
+    {"value": "C", "label": "C. 道德的原则"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "谁是“我思故我在”这一命题的提出者？",
+  "options": [
+    {"value": "A", "label": "A. 康德"},
+    {"value": "B", "label": "B. 笛卡尔"},
+    {"value": "C", "label": "C. 尼采"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "在哲学中，‘功利主义’强调什么？",
+  "options": [
+    {"value": "A", "label": "A. 最大化个人自由"},
+    {"value": "B", "label": "B. 最大化总幸福"},
+    {"value": "C", "label": "C. 道德行为的绝对标准"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "什么是‘形而上学’？",
+  "options": [
+    {"value": "A", "label": "A. 对自然科学的研究"},
+    {"value": "B", "label": "B. 对超越经验现实的研究"},
+    {"value": "C", "label": "C. 对历史事件的分析"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "哪位哲学家主张‘存在即合理’？",
+  "options": [
+    {"value": "A", "label": "A. 黑格尔"},
+    {"value": "B", "label": "B. 斯宾诺莎"},
+    {"value": "C", "label": "C. 萨特"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "伊曼努尔·康德是哪一哲学流派的代表人物？",
+  "options": [
+    {"value": "A", "label": "A. 经验主义"},
+    {"value": "B", "label": "B. 理性主义"},
+    {"value": "C", "label": "C. 批判哲学"}
+  ],
+  "correctAnswer": "C"
+},
+{
+  "question": "‘语言哲学’主要研究什么？",
+  "options": [
+    {"value": "A", "label": "A. 语言的逻辑结构"},
+    {"value": "B", "label": "B. 语言的道德影响"},
+    {"value": "C", "label": "C. 语言的美学表现"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "什么是‘悲观主义’哲学中的核心观点？",
+  "options": [
+    {"value": "A", "label": "A. 人类可以通过理性和科学进步不断完善"},
+    {"value": "B", "label": "B. 现实世界充满苦难，生活本质上是无意义的"},
+    {"value": "C", "label": "C. 乐观信念可以改变人类命运"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "心理学中的‘认知失调’是什么意思？",
+  "options": [
+    {"value": "A", "label": "A. 信息处理的障碍"},
+    {"value": "B", "label": "B. 持有相互矛盾的信念和态度"},
+    {"value": "C", "label": "C. 认知能力的自然衰退"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "弗洛伊德的精神分析理论中，‘本我’、‘自我’和‘超我’代表什么？",
+  "options": [
+    {"value": "A", "label": "A. 人格的三个不同阶段"},
+    {"value": "B", "label": "B. 精神的三个结构部分"},
+    {"value": "C", "label": "C. 三种不同的心理疾病"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "在心理学中，‘大五人格理论’包括以下哪些维度？",
+  "options": [
+    {"value": "A", "label": "A. 情绪稳定性、外向性、开放性、宜人性、尽责性"},
+    {"value": "B", "label": "B. 智力、创造力、自信、领导力、决策力"},
+    {"value": "C", "label": "C. 记忆力、注意力、感知力、思维力、语言力"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "什么是‘社会学习理论’？",
+  "options": [
+    {"value": "A", "label": "A. 通过观察和模仿他人行为学习"},
+    {"value": "B", "label": "B. 通过古典和操作性条件反射学习"},
+    {"value": "C", "label": "C. 通过直接经验和错误学习"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "‘认知行为疗法’主要是治疗什么类型的问题？",
+  "options": [
+    {"value": "A", "label": "A. 心理创伤"},
+    {"value": "B", "label": "B. 行为和情绪问题"},
+    {"value": "C", "label": "C. 遗传性疾病"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "马斯洛的需求层次理论中，哪一层次是基本需求的最高层？",
+  "options": [
+    {"value": "A", "label": "A. 安全需求"},
+    {"value": "B", "label": "B. 社交需求"},
+    {"value": "C", "label": "C. 自我实现需求"}
+  ],
+  "correctAnswer": "C"
+},
+{
+  "question": "哪个大洋是世界上面积最小的？",
+  "options": [
+    {"value": "A", "label": "A. 大西洋"},
+    {"value": "B", "label": "B. 印度洋"},
+    {"value": "C", "label": "C. 北冰洋"}
+  ],
+  "correctAnswer": "C"
+},
+{
+  "question": "以下哪个城市不是位于亚马逊河流域？",
+  "options": [
+    {"value": "A", "label": "A. 里约热内卢"},
+    {"value": "B", "label": "B. 玛瑙斯"},
+    {"value": "C", "label": "C. 贝伦"}
+  ],
+  "correctAnswer": "A"
+},
+{
+  "question": "澳大利亚的最大沙漠是什么？",
+  "options": [
+    {"value": "A", "label": "A. 维多利亚沙漠"},
+    {"value": "B", "label": "B. 大维多利亚沙漠"},
+    {"value": "C", "label": "C. 西普森沙漠"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "泰晤士河流经哪个城市？",
+  "options": [
+    {"value": "A", "label": "A. 巴黎"},
+    {"value": "B", "label": "B. 伦敦"},
+    {"value": "C", "label": "C. 阿姆斯特丹"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "被称为‘火山之国’的是哪个国家？",
+  "options": [
+    {"value": "A", "label": "A. 冰岛"},
+    {"value": "B", "label": "B. 印度尼西亚"},
+    {"value": "C", "label": "C. 日本"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "地中海气候的特点是什么？",
+  "options": [
+    {"value": "A", "label": "A. 干热的夏季和冷湿的冬季"},
+    {"value": "B", "label": "B. 温暖湿润的夏季和寒冷干燥的冬季"},
+    {"value": "C", "label": "C. 温和的夏季和雨量充沛的冬季"}
+  ],
+  "correctAnswer": "C"
+},
+{
+  "question": "哪个国家拥有世界上最多的自然湖泊？",
+  "options": [
+    {"value": "A", "label": "A. 加拿大"},
+    {"value": "B", "label": "B. 俄罗斯"},
+    {"value": "C", "label": "C. 美国"}
+  ],
+  "correctAnswer": "A"
+}
+
+]
