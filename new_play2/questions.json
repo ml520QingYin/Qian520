@@ -1321,6 +1321,41 @@
     {"value": "C", "label": "C. 美国"}
   ],
   "correctAnswer": "A"
-}
-
+},
+{
+  "question": "《星夜》是哪位艺术家的作品？",
+  "options": [
+    {"value": "A", "label": "A. 雷诺阿"},
+    {"value": "B", "label": "B. 梵高"},
+    {"value": "C", "label": "C. 莫奈"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "著名的埃菲尔铁塔位于哪个城市？",
+  "options": [
+    {"value": "A", "label": "A. 伦敦"},
+    {"value": "B", "label": "B. 巴黎"},
+    {"value": "C", "label": "C. 罗马"}
+  ],
+  "correctAnswer": "B"
+},
+{
+  "question": "以下哪位艺术家以其立体主义风格而闻名？",
+  "options": [
+    {"value": "A", "label": "A. 毕加索"},
+    {"value": "B", "label": "B. 达利"},
+    {"value": "C", "label": "C. 高更"}
+  ],
+  "correctAnswer": "A"
+},
+  {
+  "question": "与本卷满分一致的试卷是？",
+  "options": [
+    {"value": "A", "label": "A. 高考理综"},
+    {"value": "B", "label": "B. 考研英语"},
+    {"value": "C", "label": "C. 考研数学"}
+  ],
+  "correctAnswer": "C"
+},
 ]
