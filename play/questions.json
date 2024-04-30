@@ -1,11 +1,11 @@
 [
   {
-    "question": "下列说法不正确的是？",
+    "question": "你做对这个题的概率是？",
     "options": [
-      {"value": "A", "label": "A. 程琬青是神"},
-      {"value": "B", "label": "B. 呼噜噜是神"},
-      {"value": "C", "label": "C. 程琬青是呼噜噜"},
-      {"value": "D", "label": "D. 程琬青不打呼噜噜"}
+      {"value": "A", "label": "A. 0"},
+      {"value": "B", "label": "B. 25%"},
+      {"value": "C", "label": "C. 50%"},
+      {"value": "D", "label": "D. 100%"}
     ],
     "correctAnswer": "D"
   },
