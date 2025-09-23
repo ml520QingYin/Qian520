@@ -1,0 +1,371 @@
+/* ===== 答题页面可爱风格样式 ===== */
+.quiz-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 25px;
+    background: rgba(255, 250, 252, 0.95);
+    border-radius: 24px;
+    box-shadow: 0 12px 36px rgba(204, 153, 255, 0.15);
+    backdrop-filter: blur(8px);
+    border: 2px solid rgba(230, 204, 255, 0.6);
+}
+
+.quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+    padding-bottom: 18px;
+    border-bottom: 2px dashed rgba(179, 136, 230, 0.4);
+    position: relative;
+}
+
+.quiz-header::after {
+    content: "✨";
+    position: absolute;
+    right: 0;
+    bottom: -12px;
+    font-size: 1.2rem;
+    color: #cc99ff;
+}
+
+.quiz-info h2 {
+    color: #9966cc;
+    margin-bottom: 12px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-shadow: 0 2px 4px rgba(153, 102, 204, 0.2);
+}
+
+.quiz-meta {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.quiz-meta span {
+    background: linear-gradient(135deg, rgba(230, 204, 255, 0.7), rgba(204, 153, 255, 0.5));
+    color: #664499;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    box-shadow: 0 4px 8px rgba(153, 102, 204, 0.1);
+    border: 1px solid rgba(179, 136, 230, 0.3);
+}
+
+.quiz-controls button {
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #ff99cc, #ff66b2);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    box-shadow: 0 4px 12px rgba(255, 102, 178, 0.3);
+}
+
+.quiz-controls button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(255, 102, 178, 0.4);
+    background: linear-gradient(135deg, #ff66b2, #ff3399);
+}
+
+/* 题目卡片样式 */
+.question-card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 8px 24px rgba(153, 102, 204, 0.12);
+    margin-bottom: 25px;
+    border: 2px solid rgba(230, 204, 255, 0.5);
+    position: relative;
+    overflow: hidden;
+}
+
+.question-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #cc99ff, #ff99cc, #ffccff);
+    border-radius: 4px 4px 0 0;
+}
+
+#question-text {
+    color: #664499;
+    margin-bottom: 24px;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    font-weight: 600;
+    padding: 12px;
+    background: rgba(249, 245, 255, 0.7);
+    border-radius: 12px;
+    border-left: 4px solid #cc99ff;
+}
+
+/* 选项容器样式 */
+.options-container {
+    margin-bottom: 30px;
+}
+
+.option-item {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.option-item input[type="radio"],
+.option-item input[type="checkbox"] {
+    opacity: 0;
+    position: absolute;
+}
+
+.option-item label {
+    display: block;
+    padding: 16px 20px 16px 50px;
+    background: rgba(249, 245, 255, 0.8);
+    border: 2px solid rgba(204, 153, 255, 0.4);
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    color: #664499;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(153, 102, 204, 0.08);
+}
+
+.option-item label::before {
+    content: "";
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    border: 2px solid rgba(179, 136, 230, 0.6);
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.9);
+    transition: all 0.3s ease;
+}
+
+.option-item label:hover {
+    background: rgba(230, 204, 255, 0.4);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(153, 102, 204, 0.15);
+}
+
+.option-item input:checked + label {
+    background: rgba(204, 153, 255, 0.2);
+    border-color: rgba(153, 102, 204, 0.6);
+    color: #663399;
+    box-shadow: 0 6px 14px rgba(153, 102, 204, 0.2);
+}
+
+.option-item input:checked + label::before {
+    border-color: #9966cc;
+    background: #9966cc;
+    box-shadow: inset 0 0 0 4px white;
+}
+
+/* 多选题特殊样式 */
+.option-item input[type="checkbox"] + label::before {
+    border-radius: 6px;
+}
+
+.option-item input[type="checkbox"]:checked + label::before {
+    background: #9966cc;
+    box-shadow: inset 0 0 0 3px white;
+}
+
+/* 导航按钮样式 */
+.question-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.question-nav button {
+    padding: 14px 28px;
+    background: linear-gradient(135deg, rgba(179, 136, 230, 0.9), rgba(153, 102, 204, 0.9));
+    color: white;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(153, 102, 204, 0.25);
+    flex: 1;
+    min-width: 120px;
+    text-align: center;
+}
+
+.question-nav button:hover:not([disabled]) {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(153, 102, 204, 0.35);
+    background: linear-gradient(135deg, rgba(153, 102, 204, 0.9), rgba(128, 85, 179, 0.9));
+}
+
+.question-nav button:disabled {
+    background: rgba(204, 179, 230, 0.6);
+    color: rgba(102, 68, 153, 0.6);
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: 0 4px 10px rgba(153, 102, 204, 0.1);
+}
+
+#submit-quiz {
+    background: linear-gradient(135deg, rgba(255, 153, 204, 0.9), rgba(255, 102, 178, 0.9));
+    box-shadow: 0 5px 15px rgba(255, 102, 178, 0.25);
+}
+
+#submit-quiz:hover {
+    background: linear-gradient(135deg, rgba(255, 102, 178, 0.9), rgba(255, 77, 166, 0.9));
+    box-shadow: 0 8px 20px rgba(255, 102, 178, 0.35);
+}
+
+/* 解析区域样式 */
+.explanation {
+    margin-top: 25px;
+    padding: 20px;
+    background: rgba(255, 250, 252, 0.95);
+    border-radius: 16px;
+    border: 2px dashed rgba(204, 153, 255, 0.4);
+    position: relative;
+}
+
+.explanation-header {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.explanation-header h4 {
+    color: #9966cc;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.explanation-header::before {
+    content: "💡";
+    font-size: 1.4rem;
+}
+
+.explanation-content {
+    color: #664499;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+/* 答案高亮样式 */
+.correct-answer {
+    background: rgba(192, 255, 192, 0.3) !important;
+    border-color: rgba(76, 175, 80, 0.4) !important;
+    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.15) !important;
+}
+
+.user-answer {
+    background: rgba(173, 216, 230, 0.3) !important;
+    border-color: rgba(70, 130, 180, 0.4) !important;
+    box-shadow: 0 4px 12px rgba(70, 130, 180, 0.15) !important;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .quiz-container {
+        margin: 20px;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    
+    .quiz-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    
+    .quiz-meta {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+    
+    .quiz-meta span {
+        width: fit-content;
+    }
+    
+    .question-nav {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .question-nav button {
+        width: 100%;
+    }
+    
+    #question-text {
+        font-size: 1.1rem;
+    }
+    
+    .option-item label {
+        padding: 14px 16px 14px 45px;
+        font-size: 0.95rem;
+    }
+}
+
+/* 动画效果 */
+@keyframes bounceIn {
+    0% { transform: scale(0.95); opacity: 0.7; }
+    50% { transform: scale(1.02); }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+.question-card {
+    animation: bounceIn 0.5s ease;
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(153, 102, 204, 0.4); }
+    70% { box-shadow: 0 0 0 10px rgba(153, 102, 204, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(153, 102, 204, 0); }
+}
+
+.option-item input:checked + label {
+    animation: pulse 0.6s;
+}
+
+/* 可爱装饰元素 */
+.quiz-container::before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 80px;
+    height: 80px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath fill='%23cc99ff' opacity='0.2' d='M50,10 A40,40 0 1,1 50,90 A40,40 0 1,1 50,10 z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+/* 进度指示器 */
+.progress-bar {
+    height: 6px;
+    background: rgba(230, 204, 255, 0.4);
+    border-radius: 3px;
+    margin: 15px 0;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #cc99ff, #ff99cc);
+    border-radius: 3px;
+    transition: width 0.3s ease;
+}

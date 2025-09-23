@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>法律知识题库 - 主页</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>法律知识学习平台</h1>
+            <p>选择学科开始答题，提升你的法律知识</p>
+        </header>
+        
+        <div class="user-info">
+            <span id="username">游客</span>
+            <a href="login.html" id="login-link">登录</a>
+            <a href="#" id="logout-link" style="display:none;">退出</a>
+        </div>
+        
+        <div class="subject-grid">
+            <div class="subject-card" data-id="1">
+                <div class="subject-icon">刑</div>
+                <h3>刑法</h3>
+                <p>犯罪与刑罚的法律规范</p>
+            </div>
+            
+            <div class="subject-card" data-id="2">
+                <div class="subject-icon">民</div>
+                <h3>民法</h3>
+                <p>民事权利与义务的法律规范</p>
+            </div>
+            
+            <div class="subject-card" data-id="3">
+                <div class="subject-icon">理</div>
+                <h3>法理学</h3>
+                <p>法律的基本理论与原理</p>
+            </div>
+            
+            <div class="subject-card" data-id="4">
+                <div class="subject-icon">宪</div>
+                <h3>宪法学</h3>
+                <p>国家根本大法的理论研究</p>
+            </div>
+            
+            <div class="subject-card" data-id="5">
+                <div class="subject-icon">史</div>
+                <h3>法制史</h3>
+                <p>法律制度的演变与发展</p>
+            </div>
+        </div>
+        
+        <div class="settings-panel">
+            <h3>答题设置</h3>
+            <div class="setting-item">
+                <label for="question-count">题目数量:</label>
+                <select id="question-count">
+                    <option value="5">5题</option>
+                    <option value="10">10题</option>
+                    <option value="15">15题</option>
+                    <option value="20">20题</option>
+                </select>
+            </div>
+            <div class="setting-item">
+                <label for="question-type">题目类型:</label>
+                <select id="question-type">
+                    <option value="all">所有类型</option>
+                    <option value="single">单选题</option>
+                    <option value="multiple">多选题</option>
+                </select>
+            </div>
+            <button id="start-btn" disabled>选择学科开始答题</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
