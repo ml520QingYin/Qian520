@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>房屋质量评分计算器</title>
+    <link rel="stylesheet" href="calculator.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <header class="calculator-header">
+            <button class="back-button" onclick="window.location.href='index.html'">
+                <i class="fas fa-arrow-left"></i> 返回房价预测
+            </button>
+            <h1>房屋质量评估系统</h1>
+            <p>专业评估房屋建造质量与工艺水平，获取1-10分的整体质量评分</p>
+        </header>
+        
+        <main class="calculator-main">
+            <div class="assessment-card">
+                <div class="card-header">
+                    <h2>房屋质量评估</h2>
+                    <div class="header-actions">
+                        <button class="help-button" id="helpButton">
+                            <i class="fas fa-question-circle"></i> 评分标准
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="assessment-form">
+                    <div class="input-section">
+                        <div class="input-group">
+                            <label for="foundationQuality">地基质量</label>
+                            <select id="foundationQuality" class="quality-select">
+                                <option value="" disabled selected>请选择地基质量状况</option>
+                                <option value="10">优秀 - 无沉降裂缝，结构稳固</option>
+                                <option value="8">良好 - 轻微沉降，无结构问题</option>
+                                <option value="6">一般 - 可见裂缝但无安全隐患</option>
+                                <option value="4">较差 - 明显沉降，需监测</option>
+                                <option value="2">差 - 严重结构问题</option>
+                            </select>
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="roofCondition">屋顶状况</label>
+                            <select id="roofCondition" class="quality-select">
+                                <option value="" disabled selected>请选择屋顶状况</option>
+                                <option value="10">优秀 - 全新材料，无漏水</option>
+                                <option value="8">良好 - 轻微磨损，维护良好</option>
+                                <option value="6">一般 - 正常老化，需常规维护</option>
+                                <option value="4">较差 - 局部漏水，需维修</option>
+                                <option value="2">差 - 严重损坏，需更换</option>
+                            </select>
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="exteriorFinish">外部装修质量</label>
+                            <select id="exteriorFinish" class="quality-select">
+                                <option value="" disabled selected>请选择外部装修质量</option>
+                                <option value="10">豪华 - 高档石材/幕墙</option>
+                                <option value="8">优质 - 优质面砖/涂料</option>
+                                <option value="6">标准 - 普通涂料/面砖</option>
+                                <option value="4">简易 - 基础粉刷</option>
+                                <option value="2">粗糙 - 未完成或破损</option>
+                            </select>
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="interiorFinish">内部装修等级</label>
+                            <select id="interiorFinish" class="quality-select">
+                                <option value="" disabled selected>请选择内部装修等级</option>
+                                <option value="10">豪华装修 - 顶级材料工艺</option>
+                                <option value="8">精装修 - 品牌材料，精细工艺</option>
+                                <option value="6">标准装修 - 中等材料</option>
+                                <option value="4">简装修 - 基础配置</option>
+                                <option value="2">毛坯 - 无装修</option>
+                            </select>
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="plumbingSystem">管道系统</label>
+                            <select id="plumbingSystem" class="quality-select">
+                                <option value="" disabled selected>请选择管道系统状况</option>
+                                <option value="10">优秀 - 全新PPR/铜管，无问题</option>
+                                <option value="8">良好 - 轻微老化，功能正常</option>
+                                <option value="6">一般 - 正常使用痕迹</option>
+                                <option value="4">较差 - 局部锈蚀，偶有故障</option>
+                                <option value="2">差 - 严重老化，频繁故障</option>
+                            </select>
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="electricalSystem">电气系统</label>
+                            <select id="electricalSystem" class="quality-select">
+                                <option value="" disabled selected>请选择电气系统状况</option>
+                                <option value="10">优秀 - 全新线路，安全规范</option>
+                                <option value="8">良好 - 部分更新，负载充足</option>
+                                <option value="6">一般 - 满足基本需求</option>
+                                <option value="4">较差 - 线路老化，需升级</option>
+                                <option value="2">差 - 安全隐患，急需改造</option>
+                            </select>
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="windowQuality">门窗质量</label>
+                            <select id="windowQuality" class="quality-select">
+                                <option value="" disabled selected>请选择门窗质量</option>
+                                <option value="10">优秀 - 断桥铝/实木高档门窗</option>
+                                <option value="8">良好 - 优质塑钢/铝合金</option>
+                                <option value="6">一般 - 标准门窗</option>
+                                <option value="4">较差 - 老旧单层玻璃</option>
+                                <option value="2">差 - 破损漏风</option>
+                            </select>
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="kitchenQuality">厨房状况</label>
+                            <select id="kitchenQuality" class="quality-select">
+                                <option value="" disabled selected>请选择厨房状况</option>
+                                <option value="10">优秀 - 全新品牌橱柜电器</option>
+                                <option value="8">良好 - 保养良好，功能完善</option>
+                                <option value="6">一般 - 正常使用状态</option>
+                                <option value="4">较差 - 设备老旧需更新</option>
+                                <option value="2">差 - 无法正常使用</option>
+                            </select>
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="bathroomQuality">卫生间状况</label>
+                            <select id="bathroomQuality" class="quality-select">
+                                <option value="" disabled selected>请选择卫生间状况</option>
+                                <option value="10">优秀 - 全新卫浴，干湿分离</option>
+                                <option value="8">良好 - 整洁无渗漏</option>
+                                <option value="6">一般 - 正常使用痕迹</option>
+                                <option value="4">较差 - 局部问题需维修</option>
+                                <option value="2">差 - 严重问题需重装</option>
+                            </select>
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="structuralCondition">结构状况</label>
+                            <select id="structuralCondition" class="quality-select">
+                                <option value="" disabled selected>请选择结构状况</option>
+                                <option value="10">优秀 - 无裂缝变形，结构坚固</option>
+                                <option value="8">良好 - 微小非结构裂缝</option>
+                                <option value="6">一般 - 可见裂缝但稳定</option>
+                                <option value="4">较差 - 结构裂缝需关注</option>
+                                <option value="2">差 - 严重结构隐患</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="action-buttons">
+                        <button type="button" class="calculate-button" id="calculateButton">
+                            <i class="fas fa-calculator"></i>
+                            <span>计算质量评分</span>
+                        </button>
+                        
+                        <button type="button" class="reset-button" id="resetButton">
+                            <i class="fas fa-redo"></i>
+                            <span>重置表单</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="resultCard" class="result-card hidden">
+                <div class="result-header">
+                    <h2>评估结果</h2>
+                    <div class="score-badge" id="scoreBadge">专业评估</div>
+                </div>
+                
+                <div class="score-display">
+                    <div class="overall-score">
+                        <span class="score-label">整体质量评分</span>
+                        <div class="score-value-container">
+                            <span class="score-value" id="overallScore">0</span>
+                            <span class="score-max">/10</span>
+                        </div>
+                    </div>
+                    
+                    <div class="score-visual">
+                        <div class="score-bar">
+                            <div class="score-fill" id="scoreFill"></div>
+                        </div>
+                        <div class="score-labels">
+                            <span>差</span>
+                            <span>一般</span>
+                            <span>良好</span>
+                            <span>优秀</span>
+                            <span>卓越</span>
+                        </div>
+                    </div>
+                    
+                    <div class="score-description" id="scoreDescription">
+                        请完成上方评估以获取专业评分
+                    </div>
+                </div>
+                
+                <div class="breakdown-section">
+                    <h3>详细评分分析</h3>
+                    <div class="breakdown-list" id="breakdownList">
+                        <!-- 评分细则将通过JS动态生成 -->
+                    </div>
+                </div>
+                
+                <div class="result-actions">
+                    <button type="button" class="detail-button" id="detailButton">
+                        <i class="fas fa-chart-bar"></i>
+                        <span>查看详细报告</span>
+                    </button>
+                </div>
+            </div>
+        </main>
+        
+        <footer class="calculator-footer">
+            <p>© 2025 房产评估系统 | 基于专业建筑评估标准 | 版权归北京大学光华管理学院所有</p>
+        </footer>
+    </div>
+
+    <!-- 帮助提示模态框 -->
+    <div id="helpModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>房屋质量评分标准</h3>
+                <button class="close-button" id="closeModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="quality-scale">
+                    <div class="scale-item">
+                        <span class="scale-color excellent"></span>
+                        <div class="scale-info">
+                            <strong>9-10分：卓越质量</strong>
+                            <p>顶级材料和工艺，代表最高建造标准</p>
+                        </div>
+                    </div>
+                    <div class="scale-item">
+                        <span class="scale-color good"></span>
+                        <div class="scale-info">
+                            <strong>7-8分：优质水平</strong>
+                            <p>高于标准建造质量，维护良好</p>
+                        </div>
+                    </div>
+                    <div class="scale-item">
+                        <span class="scale-color average"></span>
+                        <div class="scale-info">
+                            <strong>5-6分：标准质量</strong>
+                            <p>符合建筑规范要求，正常使用状态</p>
+                        </div>
+                    </div>
+                    <div class="scale-item">
+                        <span class="scale-color poor"></span>
+                        <div class="scale-info">
+                            <strong>3-4分：需要改善</strong>
+                            <p>存在明显质量问题，建议维修</p>
+                        </div>
+                    </div>
+                    <div class="scale-item">
+                        <span class="scale-color bad"></span>
+                        <div class="scale-info">
+                            <strong>1-2分：严重问题</strong>
+                            <p>急需专业评估和重大维修</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>

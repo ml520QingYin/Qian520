@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智能房价预测系统</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 跳转到计算器页面的悬浮按钮 -->
+<a href="calculator.html" class="calculator-float-btn">
+    <i class="fas fa-calculator"></i>
+    <span class="btn-tooltip">房屋质量评估</span>
+</a>
+    <div class="container">
+        <header>
+            <h1>房屋价值评估</h1>
+            <p>输入房屋基本信息，获取精准价格预测</p>
+        </header>
+        
+        <main class="card">
+            <form id="predictionForm">
+                <div class="input-grid">
+                    <div class="input-group">
+                        <label for="livingArea">地上居住面积 (平方英尺)</label>
+                        <input type="number" id="livingArea" name="livingArea" required min="100" max="10000">
+                        <span class="input-hint">例如: 1500</span>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="overallQuality">整体质量评分 (1-10分)</label>
+                        <input type="number" id="overallQuality" name="overallQuality" required min="1" max="10">
+                        <span class="input-hint">1=最差, 10=最好, 若不确定, 可通过右上角按钮进入计算器进行计算</span>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="yearBuilt">建造年份</label>
+                        <input type="number" id="yearBuilt" name="yearBuilt" required min="1800" max="2025">
+                        <span class="input-hint">例如: 2010</span>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="basementArea">地下室总面积 (平方英尺)</label>
+                        <input type="number" id="basementArea" name="basementArea" required min="0" max="5000">
+                        <span class="input-hint">无地下室填0</span>
+                    </div>
+                </div>
+                
+                <button type="submit" class="predict-button">
+                    <span class="button-text">预测房屋价值</span>
+                    <span class="button-icon">→</span>
+                </button>
+            </form>
+            
+            <div id="result" class="result-card hidden">
+                <div class="result-header">
+                    <h2>预测结果</h2>
+                    <div class="price-badge">估算价值</div>
+                </div>
+                <p class="price" id="priceValue">$0</p>
+                <p class="result-note">此价格基于输入参数和当前市场趋势计算得出</p>
+                <button id="resetButton" class="reset-button">重新评估</button>
+            </div>
+        </main>
+        
+        <footer>
+            <p>© 2025 房产评估系统 | 基于回归模型 | 版权归北京大学光华管理学院所有</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
